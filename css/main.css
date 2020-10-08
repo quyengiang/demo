@@ -1,0 +1,535 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.container
+{
+	width: 100%;
+	height: 3000px;
+	background-color: antiquewhite;
+}
+.content
+{
+	width:100%;
+	height: 1000px;
+    background: url("../images/anh1.jpg")
+}
+.menu
+{
+	width: 100%;
+	height: 100px;
+	background-color:#0F0F0F;
+	position:fixed; 
+	float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.vertical{
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    position: fixed;
+    transform: rotate(90deg);
+}
+.box1{
+    width: 20%;
+    height: 100px;
+    background-color:#0F0F0F;
+    margin: 30px 200px ;
+    border-radius: 20px;
+}
+.box2{
+    width: 20%;
+    height: 60px;
+    background-color:#d872a3;
+    margin: 50px  350px 0px 0px ;
+    border-radius: 20px;
+    float: right;
+}
+.box3{
+    width: 20%;
+    height: 60px;
+    background-color:aliceblue;
+    margin: 50px 0px 0px 100px ;
+    border-radius: 20px;
+    float: left;
+}
+.slider
+{
+	width:100%;
+	height: 700px;
+	background-color:#222222;
+	font-size: 150px;
+}
+.logo
+{
+	width: 30%;
+	height: 100px;
+	background-color: #0F0F0F;
+	float: left;
+}
+.slider1
+{
+	width:100%;
+	height: 1000px;
+	background-color:#0F0F0F;
+	font-size: 150px;
+}
+a{
+    text-decoration: none;
+    color: #d872a3;
+}
+ul
+{
+	list-style: none;
+}
+ul li
+{
+	float:right;
+	padding:25px 50px 20px 40px;
+	text-align: center;
+    font: 20px Economica, sans-serif;
+}
+ul li a
+{
+	text-decoration: none;
+	color:aliceblue;
+}
+ul li:hover
+{
+	background-color: #d872a3;
+	text-align: center;
+}
+.trai
+{
+	width: 50%;
+	height: 700px;
+	background-color: beige;
+	float: left;
+}
+.phai
+{
+	width: 60%;
+	height: 700px;
+	background-color: #222222;
+	float: right;
+	
+}
+p.a {
+  font: 40px Economica, sans-serif;
+    margin: 30px ;
+}
+p.b {
+  font: 40px Economica, sans-serif;
+    margin: 500px 200px 0px;
+}
+p.c {
+  font: 100px Economica, sans-serif;
+    margin: 0px 200px;
+}
+p.d {
+  font: 40px Economica, sans-serif;
+    margin: 0px 200px;
+}
+p.e {
+  font: 40px Economica, sans-serif;
+    text-align: center;
+    padding-top: 28px;
+    color:aliceblue;
+}
+p.e1 {
+  font: 20px Economica, sans-serif;
+    text-align: center;
+    padding-top: 0px;
+    color: black;
+}
+.r{
+    color: #ec008c;
+    margin: 0px 200px ;
+}
+p.m{
+    font: 20px Economica, sans-serif;
+    color: aliceblue;
+    float:left;
+    padding: 200px 0px 0px 100px;
+    
+}
+p.m1{
+    font: 20px Economica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 0px;
+    
+}
+.container2{
+ width: 100%;
+ height:auto;
+ background-color:#101113;
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+ justify-content:space-between;	
+}
+
+.explore-h{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.explore-h h1{
+ font-family:Economica;
+ font-size: 30px;
+ letter-spacing: 7px;
+ color: #FFFFFF;
+ text-align: center;
+ margin: 10% 0px 0px 0px;
+}
+
+.explore-h p{
+ color: #C7C7C7;
+ font-family: Economica;
+ letter-spacing: 1px;
+ width: 100%;
+ font-size: 12px;
+ text-align: center;
+}
+
+.cs-hidden{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 0px;
+}
+
+.box-1,.box-2,.box-3,.box-4{
+ width: 250px;
+ height: 330px;
+ background-color: #1A1A1A;
+ margin: 10px;
+}
+ 
+.box-1,.box-2,.box-3,.box-4{
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-radius: 10px;
+ position:relative;
+}
+ 
+.box-1 p,.box-2 p,.box-3 p,.box-4 p{
+ position:absolute;
+ bottom: 10px;
+ font-size: 14px;
+ color: #1F1F1F;
+ font-family: Economica;
+ letter-spacing: 5px;
+ width: 100%;
+ text-align: center;
+ text-shadow: 0 0 5px  #FFFFFF ;
+}
+.box-1{
+ background-image: url("../images/BABY I'M REAL.jpg");
+}
+.box-2{
+ background-image: url("../images/120540076_1271631979840617_8067238491816463485_n.jpg");
+}
+.box-3{
+ background-image: url("../images/On the Creative Market Blog - Color Palettes in Web Design_ The Combinations Behind 30 Stunning Sites.jpg");
+}
+.box-4{
+ background-image: url("../images/pic5.jpg");
+}
+ 
+.box-1:hover{
+	transform: translateY(-10px);
+}
+
+.box-2:hover{
+	transform: translateY(-10px);
+}
+
+.box-3:hover{
+	transform: translateY(-10px);
+}
+
+.box-4:hover{
+	transform: translateY(-10px);
+}
+
+.container3{
+ width: 100%;
+ height: 520px;
+ background-color:#101113;
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+ justify-content:space-between;
+ position: relative;	
+}
+
+.skills{
+ width: 500px;
+ margin: 60px auto;
+ color:white;
+ padding: 10px 0;
+}
+
+.skills li{
+ margin: 5px 0;
+ display: block;
+ padding: 5px;
+}
+
+.skills h1{
+ font-family: Economica;
+ font-size: 30px;
+ letter-spacing: 7px;
+ color: #FFFFFF;
+ text-align: center;
+}
+
+.skills h3{
+ font-family: Economica Light;
+ font-size: 16px;
+ color: white;
+}
+
+.bar{
+ display: block;
+ height: 3px;
+ border: 0px solid rgba(0,0,0,0.2);
+ border-radius: 2px;
+ overflow: hidden;
+ box-shadow: 0 0 2px #101113;
+}
+
+.bar span{
+ height: 2px;
+ float: left;
+ background:#d872a3;
+}
+
+.Ai{
+	width: 80%;
+	animation: Ai 10s;
+}
+
+.Ps{
+	width: 60%;
+	animation: Ps 10s;
+}
+
+.WD{
+	width: 50%;
+	animation: WD 10s;
+}
+
+.Id{
+	width: 60%;
+	animation: Id 10s;
+}
+
+.container4{
+ width: 100%;
+ height: 920px;
+ background-color:#101113;
+
+ flex-direction:column;
+ align-items: center;
+ position: relative;	
+}
+
+
+.box-contact{
+ width: 400px;
+ height: auto;
+ display: inline-block;
+ cursor: pointer;
+ margin: 10px 80px;
+ padding: 10px 50px;
+}
+
+.contact{
+ position: absolute;
+ top: 58%;
+ left: 22%;
+ cursor: pointer;
+ transform: translate(-50%,-50%);
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.contact h4{
+	font-family: Economica;
+	font-size: 16px;
+	margin-top: 25px;
+}
+
+.contact p{
+	width: 100px;
+	color: #101113;
+	border: 0.5px solid #000000;
+	margin: 4px 0;
+}
+
+.contact button{
+ width: 120px;
+ height: 40px;
+ outline: none;
+ background-color: transparent;
+ border: 1.5px solid #000000;
+ color: #000000;
+ font-size: 12px;
+ font-family: Economica Book Bold, sans-serif;
+ margin-top: 80px;
+ letter-spacing: 0.75px;
+}
+
+.contact button:hover{
+ background-color:#101113;
+ color:#d872a3;
+ font-weight: bold;
+ border: none;
+ transition: all ease 0.5s;
+ box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
+
+.social{
+ position: absolute;
+ left: 50%;
+ top: 40%;
+ text-align: center;
+ margin: 5px 80px;
+ display:inline-block;
+}
+
+.social h1{
+ font-family: Economica;
+ font-size: 30px;
+ letter-spacing: 7px;
+ color: #FFFFFF;
+ text-align: center;
+}
+
+.social p{
+ font-family: Economica Book;
+ color:#e3e8eb;
+ font-size: 14px;
+ letter-spacing: 1px;
+}
+
+.social-icon {
+
+ display: flex;
+ justify-content: center;
+}
+
+.social-icon a{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+ margin: 0px 5px;
+ display: flex;
+ justify-content:center;
+ align-items: center;
+}
+
+.social-icon i{
+ color: #131313;
+ font-size: 12px;
+}
+
+.social-icon a:hover i{
+ color: #EBE9E9;
+}
+
+.social-icon a:hover{
+ background-color:#d872a3 ;
+}
+
+.icon-1, .icon-2, .icon-3{
+display: flex;
+justify-content: center;
+width: 30px;
+height: 30px;
+border-radius: 50%;	
+}
+
+
+footer{
+ width: 100%;
+ height:auto;
+ display: flex;
+ justify-content: center; 
+ background-color:#000000;
+ align-items: center;
+ padding: 10px 0;
+}
+ 
+.copyright{
+ font-family:calibri;
+ font-size: 12px;
+ color:#C7C4C4;
+ border-right: 1px solid #FFFFFF;
+ padding-right: 5px;
+ letter-spacing: 1px;
+}
+
+@keyframes Ai{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 80%;
+	}
+}
+
+@keyframes Ps{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 60%;
+	}
+}
+
+@keyframes WD{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 50%;
+	}
+}
+
+@keyframes Id{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 60%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
